@@ -1,8 +1,9 @@
-import javax.swing.JOptionPane;
-
 public class Fase1App {
-	
+
 	public static void main(String[] args) {
-		JOptionPane.showConfirmDialog(null, "yeye");
-}
+		char [] nom = {'V', 'í', 'c', 't', 'o', 'r'};
+		for(char lletra : nom) {
+			System.out.println(lletra);
+		}
+	}
 }
