@@ -9,9 +9,10 @@ public class Fase2App {
 	public static void main(String[] args) {
 
 		List<Character> nom = new ArrayList<>();
-		nom.addAll(Arrays.asList('V','i', 'c', 't', 'o', 'r', '1'));
+		nom.addAll(Arrays.asList('V','i', 'c', '4', 't', 'o', 'r'));
 		
 		for(char lletra : nom) {	
+			
 			lletra = Character.toLowerCase(lletra);
 			if (lletra == 'a' || lletra == 'e' || lletra == 'i' || lletra == 'o' | lletra == 'u') {
 				System.out.println("VOCAL");

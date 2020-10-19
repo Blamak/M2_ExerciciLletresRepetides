@@ -6,14 +6,14 @@ public class Fase4App {
 
 	public static void main(String[] args) {
 		
-		List<Character> nom      = new ArrayList<>(Arrays.asList('V', 'I', 'C', 'T', 'O', 'R'));		
-		List<Character> cognom   = new ArrayList<>(Arrays.asList('L', 'A', 'S', 'H', 'E', 'R', 'A', 'S'));
+		List<Character> name     = new ArrayList<>(Arrays.asList('V', 'I', 'C', 'T', 'O', 'R'));		
+		List<Character> surname  = new ArrayList<>(Arrays.asList('L', 'A', 'S', 'H', 'E', 'R', 'A', 'S'));
 		List<Character> fullName = new ArrayList<>();
 		
-		fullName.addAll(nom);
+		fullName.addAll(name);
 		fullName.addAll(Arrays.asList(' '));
-		fullName.addAll(cognom);
+		fullName.addAll(surname);
 		
-		System.out.println("FullName: " + fullName);
+		System.out.println("Full name: " + fullName);
 	}
 }
