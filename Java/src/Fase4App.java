@@ -11,7 +11,7 @@ public class Fase4App {
 		List<Character> fullName = new ArrayList<>();
 		
 		fullName.addAll(name);
-		fullName.addAll(Arrays.asList(' '));
+		fullName.add(' ');
 		fullName.addAll(surname);
 		
 		System.out.println("Full name: " + fullName);

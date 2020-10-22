@@ -21,7 +21,7 @@ public class Fase2App {
 			}
 			
 			if (Character.isDigit(lletra)) {
-				JOptionPane.showMessageDialog(null, "Els noms de persones no contenen números");
+				JOptionPane.showMessageDialog(null, lletra + "\nEls noms de persones no contenen números!");
 			}
 			
 		}
